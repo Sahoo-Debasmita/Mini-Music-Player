@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Music app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="Images_of_music_app/logo.jpeg" alt="music_logo">Musicophile</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="listofsong">
+            <h1>Listen to your soul</h1>
+            <div class="listbars">
+                <div class="songItem">
+                    <img src="" alt="sc" class="image">
+                    <span></span>
+                    <span id="timestamp">00:00</span><span><img src="Images_of_music_app/Play.png" alt=""
+                            class="playsong" id="songs/Jay Jagganath.mp3"></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="sc" class="image">
+                    <span></span>
+                    <span id="timestamp">00:00</span><span><img src="Images_of_music_app/Play.png" alt=""
+                            class="playsong" id="songs/Khokabhai.mp3"></span>
+                </div>
+        
+                <div class="songItem">
+                    <img src="" alt="sc" class="image">
+                    <span></span>
+                    <span id="timestamp">00:00</span><span><img src="Images_of_music_app/Play.png" alt=""
+                            class="playsong" id="songs/Dilwale.mp3"></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="sc" class="image">
+                    <span></span>
+                    <span id="timestamp">00:00</span><span><img src="Images_of_music_app/Play.png" alt=""
+                            class="playsong" id="songs/Master.mp3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="Progressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="pre"><img src="Images_of_music_app/previous.png" alt=""></i>
+            <i id="mainplay" class="playclass"><img src="Images_of_music_app/Play.png" alt="playicon" id="mainplayicon"></i>
+            <i id="nex"><img src="Images_of_music_app/nextb.png" alt=""></i>
+        </div>
+        <div class="songinfo">
+            <img src="Images_of_music_app/Music_GIF.gif" alt="gify" id="gif" width="20px">Song for You
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
