@@ -65,11 +65,28 @@ document.getElementById("pre").addEventListener('click',()=>{
     let currentIndex = song.findIndex(songItem => songItem.FilePath === index);
 
     if (currentIndex === 0) {
-        // If the current song is the first song, loop back to the last song
+        
         index = song[maxindex - 1].FilePath;
     } else {
-        // Go to the previous song
+        
         index = song[currentIndex - 1].FilePath;
+    }
+     
+     audio.src=`${index}`;
+     audio.currentTime=0;
+     const progressbartime=parseInt((audio.currentTime/audio.duration)*100);
+     progressbar.value=progressbartime;
+     audio.play(); gif.style.opacity=1;
+     mainplayicon.src="Images_of_music_app/pause.png";
+})
+//Next Button handling
+document.getElementById("nex").addEventListener('click',()=>{
+    let maxindex = song.length;
+    let currentIndex = song.findIndex(songItem => songItem.FilePath === index);
+    if (currentIndex === maxindex-1) {
+        index = song[0].FilePath;
+    } else { 
+        index = song[currentIndex + 1].FilePath;
     }
      audio.src=`${index}`;
      audio.currentTime=0;
