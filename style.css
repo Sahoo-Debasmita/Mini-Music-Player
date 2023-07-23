@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
 }
-.container h1{
+.listofsong h1{
     font-size: large;
     text-align:right ;
-    padding-right: 200px;
+    padding-right: 80px;
 }
 body{
-    background-color: rgb(230, 158, 230);
+    background-color:#333333    ;
     overflow: hidden;
 }
 nav{
@@ -51,15 +51,14 @@ border-radius: 10rem;
     margin: 10px auto;
     width: 150vh;
     border-radius: 20px;
-    justify-content: flex-end;
-    background-image: url("Images_of_music_app/Music_Background.jpeg" );
+    justify-content: flex-start;
+    background-image: url("Images_of_music_app/Music_Background.png" );
     background-size: cover;
-   
+    background-position: center;
 }
 .bottom{
     position:sticky;
-    height: 85px;
-    background-color: rgb(69, 45, 45);
+    height: 15vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -79,9 +78,9 @@ border-radius: 10rem;
  cursor: pointer;
 }
 .songItem{
-    color: black;
+    color: white;
     width: 320px;
-    background-color: white;
+    background-color: rgb(33, 31, 31);
     display: flex;
     flex-direction: row;
     margin: 10px 0;
@@ -111,7 +110,8 @@ margin: 10px 5px;
 .playsong{
     cursor: pointer;
 }
-.listbar{
+.listbars{
     overflow: hidden;
     position: sticky;
+    padding-left: 2.5vw;
 }
