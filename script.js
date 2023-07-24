@@ -1,4 +1,4 @@
-console.log("Welcome to the world of music");
+// console.log("Welcome to the world of music");
 // All songs information
 let song = [
     { SongName: "Let me love you", FilePath: "songs/Let me love you.mp3", Coverimg: "Images_of_music_app/let me love u.jpg" },
