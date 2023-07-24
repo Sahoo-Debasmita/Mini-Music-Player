@@ -1,8 +1,8 @@
 console.log("Welcome to the world of music");
 // All songs information
 let song = [
-    { SongName: "JayJagganath", FilePath: "songs/Jay Jagganath.mp3", Coverimg: "Images_of_music_app/cover5.jpg" },
-    { SongName: "Khokabhai", FilePath: "songs/Khokabhai.mp3", Coverimg: "Images_of_music_app/cover6.jpg" },
+    { SongName: "Let me love you", FilePath: "songs/Let me love you.mp3", Coverimg: "Images_of_music_app/let me love u.jpg" },
+    { SongName: "Pasoori", FilePath: "songs/pasoori.mp3", Coverimg: "Images_of_music_app/cover3.jpg" },
     { SongName: "Dilwale", FilePath: "songs/Dilwale.mp3", Coverimg: "Images_of_music_app/cover7.jpg" },
     { SongName: "Master", FilePath: "songs/Master.mp3", Coverimg: "Images_of_music_app/cover2.jpg" },
 ]

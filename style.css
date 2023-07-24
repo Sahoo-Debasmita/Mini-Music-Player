@@ -26,6 +26,11 @@ nav ul{
 }
 nav ul li{
     padding: 0 10px;
+    cursor: pointer;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
 }
 .logo img{
     width: 30px;
