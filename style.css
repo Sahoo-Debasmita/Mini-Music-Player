@@ -1,0 +1,117 @@
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.listofsong h1{
+    font-size: large;
+    text-align:right ;
+    padding-right: 80px;
+}
+body{
+    background-color:#333333    ;
+    overflow: hidden;
+}
+nav{
+    font-family: 'VT323', monospace;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 10px;
+}
+.logo img{
+    width: 30px;
+    padding: 0 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.image{
+width: 59px;
+margin-left: 15px;
+border-radius: 10rem;
+}
+.container{
+    min-height: 75vh;
+    max-width: 75vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 10px auto;
+    width: 150vh;
+    border-radius: 20px;
+    justify-content: flex-start;
+    background-image: url("Images_of_music_app/Music_Background.png" );
+    background-size: cover;
+    background-position: center;
+}
+.bottom{
+    position:sticky;
+    height: 15vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    cursor: pointer;
+}
+#Progressbar{
+ width: 95vw;
+ cursor: pointer;
+}
+.songItem{
+    color: white;
+    width: 320px;
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    min-height: 20px;
+    min-width: 32px;
+}
+#playinc{
+    width: 30px;
+    cursor: pointer;
+}
+#timestamp{
+margin: 10px 5px;    
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    margin-left: 2.5vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.playsong{
+    cursor: pointer;
+}
+.listbars{
+    overflow: hidden;
+    position: sticky;
+    padding-left: 2.5vw;
+}
